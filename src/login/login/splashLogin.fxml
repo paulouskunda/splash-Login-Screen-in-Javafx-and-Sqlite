@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="540.0" prefWidth="936.0" style="-fx-background-color: #B3CCFF;" xmlns="http://javafx.com/javafx/8.0.131" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.login.Splash">
+   <children>
+      <Text layoutX="48.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30px;" text="SPLASH LOGIN" />
+      <VBox layoutX="425.0" layoutY="-1.0" prefHeight="540.0" prefWidth="511.0" style="-fx-background-color: #CCE6FF;" />
+   </children>
+</AnchorPane>
