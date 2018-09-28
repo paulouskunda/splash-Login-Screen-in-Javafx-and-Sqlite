@@ -1,0 +1,10 @@
+.text-field {
+        -fx-font-size : 14px;
+}
+.label {
+  -fx-font-size:18px;
+}
+.button {
+  -fx-background-color: #CCCCCC;
+
+}
