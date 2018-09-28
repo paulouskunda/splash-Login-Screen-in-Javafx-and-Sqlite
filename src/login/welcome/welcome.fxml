@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="524.0" prefWidth="788.0" xmlns="http://javafx.com/javafx/8.0.131" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.welcome.Welcome">
+   <children>
+      <HBox layoutX="107.0" layoutY="44.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox alignment="TOP_CENTER" prefHeight="524.0" prefWidth="92.0" style="-fx-background-color: #B3CCFF;" HBox.hgrow="ALWAYS">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                     <image>
+                        <Image url="@../images/if_00-ELASTOFONT-STORE-READY_user-circle_2703062.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="Username" text="Username" />
+                  <Label fx:id="email" layoutX="115.0" layoutY="200.0" text="Email" />
+               </children>
+            </VBox>
+            <VBox alignment="TOP_CENTER" prefHeight="524.0" prefWidth="450.0" style="-fx-background-color: #B3FFEE;" HBox.hgrow="ALWAYS">
+               <children>
+                  <HBox alignment="TOP_RIGHT" prefHeight="32.0" prefWidth="524.0">
+                     <children>
+                        <JFXButton buttonType="RAISED" onAction="#onLogOut" style="-fx-background-color: #FFF;" text="LOGOUT" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="19.0" left="19.0" right="19.0" top="19.0" />
+                           </HBox.margin>
+                        </JFXButton>
+                     </children>
+                  </HBox>
+                  <Label text="WELCOME TO THE">
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label layoutX="10.0" layoutY="73.0" text="SPLASH SCREEN">
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <VBox alignment="BOTTOM_CENTER" prefHeight="362.0" prefWidth="524.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="HAPPY CODING FROM PAULOUS" VBox.vgrow="ALWAYS">
+                           <VBox.margin>
+                              <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                           </VBox.margin>
+                        </Text>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
